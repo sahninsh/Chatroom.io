@@ -1,0 +1,99 @@
+		::-webkit-scrollbar{
+			width: 0px;
+		}
+		::-webkit-scrollbar-thumb{
+			background: grey;
+		}
+		body {
+			padding:0;
+			margin: 0;
+			font-family: 'Montserrat';
+			overflow: hidden;
+		}
+		.land {
+			height: 100vh;
+			width: 100vw;
+			background-image: url('https://cdn.hipwallpaper.com/i/98/62/HdPvS5.png');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+
+			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+			
+	
+		}
+
+		.navbar {
+			height: auto;
+			width: inherit;
+			background-color: #117bee;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+
+		}
+
+		.hamburger {
+			width: 5vw;
+			height: inherit;
+			margin: auto;
+
+		}
+		.name {
+		font-size: 28px;
+		padding-right: 5vw;
+		color: #fff;
+		padding-top: 1vh;
+		padding-bottom: 1vh;
+
+		}
+		.chatbox {
+			width: 80vw;
+			background: transparent;
+			margin: auto;
+			height: 80vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+
+			
+		}
+		.input {
+			width: 80vw;
+			text-align: center;
+		}
+		.say {
+			width: inherit;
+			font-size: 26px;
+			padding: 1vh 1vw 1vh 1vw;
+
+
+		}
+		.chat-container {
+			height: 60vh;
+			background: transparent;
+			overflow-y: scroll;
+
+		}
+		.text {
+			width:20vw;
+			color: #fff;
+			padding: 4vh 3vw 4vh 3vw;
+			background: #117bee;
+			border-radius: 20px 10px 20px 10px;
+			height: auto;
+		}
+
+		.uinput {
+			width:20vw;
+			color: #fff;
+			padding: 4vh 3vw 4vh 3vw;
+			background: #117bee;
+			border-radius: 20px 10px 20px 10px;
+			float: right;
+			position: relative;
+			height: auto;
+		}
